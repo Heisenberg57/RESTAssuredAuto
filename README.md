@@ -1,8 +1,8 @@
 This is a basic API Automation project built using Java, REST Assured, and JUnit 5.
-It demonstrates simple GET and POST API tests using the free public API 👉 JSONPlaceholder
+It demonstrates simple GET and POST API tests using the free public API  JSONPlaceholder
 .
 
-📂 Project Structure
+ Project Structure
 restassured-demo
  ├── pom.xml
  └── src
@@ -21,7 +21,7 @@ JUnit 5 – test framework
 
 REST Assured – API testing library
 
-🚀 How to Run Tests
+ How to Run Tests
 
 Clone the repository:
 
@@ -33,7 +33,7 @@ Run tests using Maven:
 
 mvn clean test
 
-✅ Sample Tests
+ Sample Tests
 🔹 GET /posts/1
 
 Validate status code = 200
@@ -59,7 +59,7 @@ Validate response title == "SDET Portfolio"
 
 Validate response userId == 101
 
-📊 Test Reports
+ Test Reports
 
 After running tests, Maven Surefire generates reports under:
 
@@ -68,7 +68,7 @@ target/surefire-reports/
 
 You can open them to see detailed execution results.
 
-🌟 Why this project?
+ Why this project?
 
 Kickstart for API Automation with REST Assured
 
